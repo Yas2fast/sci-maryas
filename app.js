@@ -3,7 +3,7 @@ const AUTO_MONTHLY_KEY = 'sci_maryas_auto_monthly_generation_v1';
 
 const defaultData = {
   settings: {
-    companyName: 'SCI de l’Espérance',
+    companyName: 'SCI MARYAS',
     managerName: '',
     email: '',
     phone: '',
@@ -425,7 +425,7 @@ function openDocumentModal(doc = null, presetType = 'facture', presetClientId = 
     <div class="doc-sheet apple-doc invoice-doc">
       <div class="apple-doc-header">
         <div class="apple-doc-company">
-          <h2>SCI DE L'ESPERANCE</h2>
+          <h2>SCI MARYAS</h2>
           <p>35 RUE DES CAILLOUX<br>92110 CLICHY</p>
           ${s.siret ? `<p>SIRET : ${escapeHtml(s.siret)}</p>` : ''}
         </div>
@@ -497,7 +497,7 @@ function openDocumentModal(doc = null, presetType = 'facture', presetClientId = 
       </div>
 
       <div class="apple-doc-footer">
-        SCI DE L'ESPERANCE – au capital de 10.000 €<br>
+        SCI MARYAS – au capital de 10.000 €<br>
         35 RUE DES CAILLOUX 92110 CLICHY
       </div>
     </div>
@@ -514,7 +514,7 @@ function createReceiptHtml(doc, client, s) {
 
       <div class="receipt-header">
         <div class="receipt-company-block">
-          <div class="receipt-company-name">SCI DE L'ESPERANCE</div>
+          <div class="receipt-company-name">SCI MARYAS</div>
           <div class="receipt-company-lines">
             35 RUE DES CAILLOUX<br>
             92110 CLICHY<br>
@@ -596,7 +596,7 @@ function createReceiptHtml(doc, client, s) {
       </div>
 
       <div class="apple-doc-footer receipt-footer">
-        SCI DE L'ESPERANCE – au capital de 10.000 €<br>
+        SCI MARYAS – au capital de 10.000 €<br>
         35 RUE DES CAILLOUX 92110 CLICHY
       </div>
     </div>
@@ -624,7 +624,7 @@ function createReminderHtml(doc, level) {
     <div class="doc-sheet apple-doc">
       <div class="apple-doc-header">
         <div class="apple-doc-company">
-          <h2>SCI DE L'ESPERANCE</h2>
+          <h2>SCI MARYAS</h2>
           <p>35 RUE DES CAILLOUX<br>92110 CLICHY</p>
         </div>
         <div class="apple-doc-meta">
@@ -664,7 +664,7 @@ function createReminderHtml(doc, level) {
       </div>
 
       <div class="apple-doc-footer">
-        SCI DE L'ESPERANCE – au capital de 10.000 €<br>
+        SCI MARYAS – au capital de 10.000 €<br>
         35 RUE DES CAILLOUX 92110 CLICHY
       </div>
     </div>
