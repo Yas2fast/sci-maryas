@@ -243,7 +243,9 @@ textarea {
 
 .full {
   width: 100%;
-}.toolbar {
+}
+
+.toolbar {
   display: flex;
   gap: 12px;
   margin-bottom: 14px;
@@ -455,7 +457,6 @@ th {
   text-align: center;
 }
 
-/* tableau à encaisser */
 #encaissementPanel {
   margin-top: 18px;
 }
@@ -483,7 +484,6 @@ th {
   margin-top: 4px;
 }
 
-/* menu actions */
 .action-menu {
   position: relative;
   display: flex;
@@ -543,7 +543,6 @@ th {
   color: #dc2626;
 }
 
-/* Badge statut */
 .doc-status-badge {
   display: inline-flex;
   align-items: center;
@@ -567,7 +566,8 @@ th {
   color: #dc2626;
   border-color: #dc2626;
   background: rgba(220, 38, 38, 0.08);
-}/* Facture */
+}
+
 .apple-doc {
   max-width: 900px;
   width: 100%;
@@ -682,15 +682,17 @@ th {
 
 .apple-doc-footer {
   align-self: end;
+  width: 100%;
   margin-top: 0;
   padding-top: 20px;
   padding-bottom: 6px;
-  text-align: center;
+  text-align: center !important;
   font-size: 12px;
 }
 
-/* Quittance */
+/* Quittance corrigée */
 .receipt-doc {
+  height: 1122px;
   min-height: 1122px;
   display: flex;
   flex-direction: column;
@@ -779,10 +781,6 @@ th {
   color: #1f3b57;
 }
 
-.receipt-highlight {
-  display: none;
-}
-
 .receipt-table {
   width: 100%;
   border-collapse: collapse;
@@ -842,12 +840,15 @@ th {
 }
 
 .receipt-footer {
+  width: 100%;
+  align-self: stretch;
   margin-top: auto;
   padding-top: 24px;
-  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center !important;
 }
 
-/* Relances */
 .reminder-level-1 td:first-child {
   border-left: 4px solid #f59e0b;
 }
@@ -931,4 +932,4 @@ th {
   .receipt-doc {
     max-width: none;
   }
-}/* Collez ici votre styles.css complet */
+}
