@@ -957,4 +957,3 @@ th {
 
 @media (max-width: 420px) {
   .stats-grid { grid-template-columns: 1fr !important; }
-}
